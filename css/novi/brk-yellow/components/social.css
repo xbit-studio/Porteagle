@@ -1,0 +1,342 @@
+/* ----------- Palette variable ----------- */
+
+/* ----------- Palette variable ----------- */
+/*
+.block {
+	// CSS declarations for `.block`
+
+	@include e('element') {
+		// CSS declarations for `.block__element`
+	}
+
+	@include m('modifier') {
+		// CSS declarations for `.block--modifier`
+
+		@include e('element') {
+			// CSS declarations for `.block--modifier__element`
+		}
+	}
+}
+*/
+[class*="social__icon"] a {
+  display: block; }
+
+[class*="social__icon"] p {
+  margin-top: 3px; }
+
+.social__icon-circle {
+  margin-top: 40px; }
+  .social__icon-circle .icon {
+    width: 95px;
+    height: 95px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 17px; }
+    .social__icon-circle .icon:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      z-index: 2; }
+    .social__icon-circle .icon > .before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #fdef4b 20%, #fff42f 70%);
+      opacity: 0;
+      -webkit-transition: all .4s ease;
+      transition: all .4s ease;
+      z-index: 1; }
+    .social__icon-circle .icon > .after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #fd8000 20%, #ba7800 70%);
+      z-index: -1; }
+  .social__icon-circle:hover .icon > .before {
+    opacity: 1; }
+  .social__icon-circle-dark .after {
+    border-radius: 0 !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(253, 180, 21, 0.86)), to(rgba(255, 193, 9, 0.86))) !important;
+    background: linear-gradient(to top, rgba(253, 180, 21, 0.86) 0%, rgba(255, 193, 9, 0.86) 100%) !important; }
+  .social__icon-circle-dark .before {
+    border-radius: 0 !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(253, 180, 21, 0.86)), to(rgba(253, 180, 21, 0.86))) !important;
+    background: linear-gradient(to top, rgba(253, 180, 21, 0.86) 0%, rgba(253, 180, 21, 0.86) 100%) !important; }
+
+.social__icon-round {
+  margin-top: 40px; }
+  .social__icon-round .icon-wrap {
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 30px;
+    margin: 0 auto 35px;
+    position: relative;
+    z-index: 1; }
+    .social__icon-round .icon-wrap:hover .icon {
+      background: #fdb415;
+      border-color: #fddb00; }
+  .social__icon-round .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 28px;
+    background: #fdb415;
+    border: 2px solid transparent;
+    box-shadow: 0 5px 16px 0 rgba(253, 180, 21, 0.5);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    z-index: 1; }
+    .social__icon-round .icon:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      z-index: 2; }
+  .social__icon-round:hover .icon-wrap {
+    background: #fdb415; }
+  .social__icon-round:hover .icon {
+    background: #fdb415;
+    border-color: #fddb00; }
+
+.social__icon-square {
+  max-width: 260px;
+  margin: 0 auto;
+  padding: 45px 20px;
+  background: #fff;
+  border: 1px solid rgba(253, 180, 21, 0.1);
+  box-shadow: 0 10px 30px -10px rgba(253, 180, 21, 0.15); }
+  .social__icon-square_dark {
+    border: 1px solid rgba(26, 27, 27, 0.05); }
+  @media (min-width: 992px) {
+    .social__icon-square {
+      margin-bottom: -50px; } }
+  .social__icon-square .text {
+    color: #fddb00 !important; }
+  .social__icon-square .icon {
+    width: 85px;
+    height: 85px;
+    position: relative;
+    z-index: 1;
+    color: #fdb415;
+    font-size: 28px;
+    margin-bottom: 23px;
+    border: 2px solid rgba(253, 180, 21, 0.15);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease; }
+    .social__icon-square .icon:hover {
+      color: #fff; }
+    .social__icon-square .icon:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      z-index: 2; }
+    .social__icon-square .icon .slide-bg {
+      background: -webkit-gradient(linear, left top, right top, color-stop(20%, #fdb415), color-stop(70%, #ffc109));
+      background: linear-gradient(to right, #fdb415 20%, #ffc109 70%); }
+  .social__icon-square_dark .icon {
+    color: #1a1b1b;
+    border: 2px solid rgba(26, 27, 27, 0.05); }
+  .social__icon-square_dark .text {
+    color: #1a1b1b !important; }
+
+@media (min-width: 575px) {
+  [class^="col-"]:nth-child(2n) .social__icon-honeycomb .hexagon {
+    -webkit-box-ordinal-group: 2;
+            order: 1; } }
+
+[class^="col-"]:nth-child(2n) .social__icon-honeycomb .icon-title {
+  -webkit-box-pack: end;
+          justify-content: flex-end; }
+
+.social__icon-honeycomb {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+  .social__icon-honeycomb .hexagon {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 130px;
+    height: 120px; }
+    @media (min-width: 400px) {
+      .social__icon-honeycomb .hexagon {
+        width: 160px;
+        height: 150px; } }
+    @media (min-width: 768px) {
+      .social__icon-honeycomb .hexagon {
+        width: 220px;
+        height: 190px; } }
+    .social__icon-honeycomb .hexagon > .after {
+      -webkit-transform: scale(1) rotateY(90deg);
+              transform: scale(1) rotateY(90deg);
+      opacity: 1;
+      background: linear-gradient(25deg, #fdb415 30%, #fdef4b) 60%; }
+  .social__icon-honeycomb .icon-title {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+            align-items: center;
+    padding: 20px 0 0; }
+    @media (min-width: 575px) {
+      .social__icon-honeycomb .icon-title {
+        padding: 20px 0;
+        height: 70px; } }
+    @media (min-width: 1200px) {
+      .social__icon-honeycomb .icon-title {
+        height: 115px;
+        width: 220px;
+        padding: 40px 0; } }
+  .social__icon-honeycomb .icon {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fdb415;
+    font-size: 36px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease; }
+    .social__icon-honeycomb .icon:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      z-index: 2; }
+  .social__icon-honeycomb:hover .hexagon > .after {
+    left: -1px;
+    right: -1px;
+    -webkit-transform: scale(1) rotateY(0deg);
+            transform: scale(1) rotateY(0deg); }
+  .social__icon-honeycomb:hover .icon {
+    color: #fff; }
+
+@media (min-width: 1200px) {
+  [class^="col-"]:nth-child(2n) .social__icon-gradient .icon-title {
+    bottom: auto;
+    top: -44px; } }
+
+[class^="col-"]:nth-child(2n) .social__icon-gradient > .after {
+  top: auto;
+  bottom: 0; }
+
+[class^="col-"]:last-child .social__icon-gradient > .after {
+  width: 30vw;
+  left: 50%; }
+
+@media (min-width: 1200px) {
+  [class^="col-"]:first-child .social__icon-gradient > .before {
+    display: inline-block; } }
+
+.social__icon-gradient {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1; }
+  .social__icon-gradient > .before {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 30vw;
+    height: 50%;
+    background: #fdb415;
+    background: linear-gradient(25deg, #fdef4b 40%, #fff42f) 60%;
+    z-index: -1;
+    pointer-events: none; }
+  .social__icon-gradient > .after {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 50%;
+    background: #fdb415;
+    background: linear-gradient(25deg, #fdef4b 40%, #fff42f) 60%;
+    z-index: -1;
+    pointer-events: none; }
+    @media (min-width: 1200px) {
+      .social__icon-gradient > .after {
+        display: inline-block; } }
+  .social__icon-gradient .hexagon {
+    width: 135px;
+    height: 120px; }
+    @media (min-width: 768px) {
+      .social__icon-gradient .hexagon {
+        width: 175px;
+        height: 150px; } }
+    .social__icon-gradient .hexagon > .after {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      background: linear-gradient(25deg, #fdb415 30%, #fdef4b) 60%; }
+  .social__icon-gradient .icon-title {
+    margin-top: 20px; }
+    @media (min-width: 1200px) {
+      .social__icon-gradient .icon-title {
+        margin-top: 0;
+        position: absolute;
+        bottom: -44px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+                transform: translate(-50%, 0); } }
+  .social__icon-gradient .icon {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fdb415;
+    font-size: 36px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease; }
+    .social__icon-gradient .icon:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      z-index: 2; }
+  .social__icon-gradient:hover .hexagon > .after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  .social__icon-gradient:hover .icon {
+    color: #fff; }
+
+/*# sourceMappingURL=maps/social.css.map */

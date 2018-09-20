@@ -1,0 +1,243 @@
+/* ----------- Palette variable ----------- */
+
+/* ----------- Palette variable ----------- */
+/*
+.block {
+	// CSS declarations for `.block`
+
+	@include e('element') {
+		// CSS declarations for `.block__element`
+	}
+
+	@include m('modifier') {
+		// CSS declarations for `.block--modifier`
+
+		@include e('element') {
+			// CSS declarations for `.block--modifier__element`
+		}
+	}
+}
+*/
+.brs-post-container_bottom-divider {
+  padding-bottom: 55px; }
+  .brs-post-container_bottom-divider::after {
+    content: "";
+    height: 1px;
+    width: -webkit-calc(100% + 30px);
+    width: calc(100% + 30px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ebebeb; }
+    @media screen and (max-width: 992px) {
+      .brs-post-container_bottom-divider::after {
+        display: none; } }
+
+.brs-sidebar_bottom-divider::after {
+  content: "";
+  height: 1px;
+  width: -webkit-calc(100% - 15px);
+  width: calc(100% - 15px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ebebeb; }
+  @media screen and (max-width: 992px) {
+    .brs-sidebar_bottom-divider::after {
+      display: none; } }
+
+.brk-post-full__meta {
+  display: -webkit-box;
+  display: flex; }
+  .brk-post-full__meta-date {
+    color: rgba(27, 27, 27, 0.4);
+    margin-right: 14px; }
+    .brk-post-full__meta-date > i {
+      margin-right: 4px;
+      font-size: 10px;
+      position: relative;
+      bottom: 2px;
+      left: 1px; }
+  .brk-post-full__meta-comments {
+    color: rgba(27, 27, 27, 0.4); }
+    .brk-post-full__meta-comments > i {
+      margin-right: 8px;
+      font-size: 10px;
+      position: relative;
+      bottom: 2px;
+      left: 1px; }
+  .brk-post-full__meta-date i, .brk-post-full__meta-comments i {
+    vertical-align: middle; }
+
+.brk-post-full__fixed-width {
+  min-width: 73px; }
+
+.brk-post-full .rotation-slider {
+  max-width: none; }
+
+.brk-post-preview {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12); }
+  .brk-post-preview__img-wrapper {
+    position: relative;
+    width: 100%; }
+    .brk-post-preview__img-wrapper::before {
+      content: '';
+      display: block;
+      padding-bottom: 100%;
+      width: 100%; }
+  .brk-post-preview__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center; }
+  .brk-post-preview__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: .3s ease opacity;
+    transition: .3s ease opacity; }
+  .brk-post-preview__link {
+    position: absolute;
+    bottom: 0;
+    margin-left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+            transform: translate(-50%, 50%);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    padding: 19px 53px;
+    border-radius: 50px;
+    white-space: nowrap;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all; }
+  .brk-post-preview__info {
+    background-color: #ffffff;
+    padding: 65px 40px 45px 40px; }
+  .brk-post-preview:hover .brk-post-preview__overlay {
+    opacity: 1; }
+  .brk-post-preview:hover .brk-post-preview__link {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    bottom: 50%;
+    padding: 17px 52px; }
+
+.brk-related-carousel__control {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  -webkit-box-flex: 1;
+          flex-grow: 1; }
+  .brk-related-carousel__control::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ececec; }
+  .brk-related-carousel__control-btn {
+    z-index: 1;
+    padding: 15px 64px;
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    border-radius: 35px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all; }
+    @media screen and (max-width: 500px) {
+      .brk-related-carousel__control-btn {
+        -webkit-box-flex: 1;
+                flex-grow: 1;
+        padding: 10px;
+        -webkit-box-pack: center;
+                justify-content: center; } }
+    .brk-related-carousel__control-btn:first-child > i {
+      margin-right: 10px;
+      margin-top: -4px; }
+    .brk-related-carousel__control-btn:last-child > i {
+      margin-left: 10px;
+      margin-top: -4px; }
+    .brk-related-carousel__control-btn:hover {
+      color: #ffffff; }
+
+.brk-related-carousel .slick-list {
+  margin: -15px; }
+
+.brk-related-carousel .slick-slide {
+  padding: 15px; }
+
+.brk-related-carousel__dots {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin-top: 50px; }
+  .brk-related-carousel__dots li {
+    width: 26px;
+    height: 9px;
+    overflow: hidden;
+    color: transparent;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 20px; }
+    .brk-related-carousel__dots li:last-child {
+      margin-right: 0; }
+    .brk-related-carousel__dots li button {
+      background-color: transparent;
+      width: 100%;
+      height: 100%; }
+  .brk-related-carousel__dots li {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-shadow: inset 0px 0px 0px 1px #fff; }
+  .brk-related-carousel__dots .slick-active {
+    border: 1px solid rgba(0, 0, 0, 0.13); }
+
+.brk-reply-item {
+  position: relative;
+  padding-left: 85px;
+  padding-bottom: 38px;
+  margin-bottom: 34px; }
+  .brk-reply-item .brk-forum-post__header {
+    margin-left: -85px; }
+  .brk-reply-item::after {
+    content: '';
+    height: 1px;
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    bottom: 0;
+    left: 30px;
+    position: absolute;
+    background-image: url("../../img/dashed-border.png");
+    background-repeat: repeat; }
+  .brk-reply-item::before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 31px;
+    top: 34px;
+    background-color: #ebebeb; }
+  .brk-reply-item:last-of-type::before, .brk-reply-item:last-of-type::after {
+    display: none; }
+
+/*# sourceMappingURL=maps/blog-page.css.map */

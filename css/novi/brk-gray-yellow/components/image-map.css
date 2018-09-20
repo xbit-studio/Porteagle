@@ -1,0 +1,36 @@
+/* ----------- Palette variable ----------- */
+
+/* ----------- Palette variable ----------- */
+/*
+.block {
+	// CSS declarations for `.block`
+
+	@include e('element') {
+		// CSS declarations for `.block__element`
+	}
+
+	@include m('modifier') {
+		// CSS declarations for `.block--modifier`
+
+		@include e('element') {
+			// CSS declarations for `.block--modifier__element`
+		}
+	}
+}
+*/
+.brk-image-map {
+  z-index: 9; }
+  @media (min-width: 992px) {
+    .brk-image-map_absolute-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: auto;
+      max-width: 100%;
+      height: auto; } }
+
+.brk-image-map_full-width .imp-wrap {
+  max-width: none !important;
+  width: 100%; }
+
+/*# sourceMappingURL=maps/image-map.css.map */

@@ -1,0 +1,1001 @@
+/* ----------- Palette variable ----------- */
+
+/* ----------- Palette variable ----------- */
+/*# sourceMappingURL=maps/brk-blue.css.map */
+
+/*
+.block {
+	// CSS declarations for `.block`
+
+	@include e('element') {
+		// CSS declarations for `.block__element`
+	}
+
+	@include m('modifier') {
+		// CSS declarations for `.block--modifier`
+
+		@include e('element') {
+			// CSS declarations for `.block--modifier__element`
+		}
+	}
+}
+*/
+.brk-color-base-1 {
+  color: #69adff;
+}
+
+.brk-color-base-2 {
+  color: #00c6ff;
+}
+
+.brk-color-base-3 {
+  color: #0F5AE0;
+}
+
+.brk-color-base-4 {
+  color: #e8ecff;
+}
+
+.brk-color-base-5 {
+  color: #00f6ff;
+}
+
+.brk-color-base-6 {
+  color: #0B98F6;
+}
+
+.brk-color-base-7 {
+  color: #a7ebff;
+}
+
+.brk-color-base-8 {
+  color: #1600ba;
+}
+
+.brk-base-font-color {
+  color: #2775FF;
+}
+
+.brk-base-font-color-i {
+  color: #2775FF !important;
+}
+
+.brk-base-2-font-color {
+  color: #00c6ff;
+}
+
+.brk-text-base-color-1 {
+  color: #c4c4c4;
+}
+
+.brk-dark-font-color {
+  color: #9f9f9f;
+}
+
+.brk-dark-font-color-2 {
+  color: #272727;
+}
+
+.brk-dark-font-color-3 {
+  color: #a2a5ad;
+}
+
+.brk-black-font-color {
+  color: #000;
+}
+
+.brk-white-font-color {
+  color: #fff !important;
+}
+
+.brk-white-font-color-opacity-4 {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.brk-blue-font-color {
+  color: #69adff;
+}
+
+.brk-blue-light-font-color {
+  color: #00c6ff;
+}
+
+.brk-dark-blur-font-color {
+  color: #88909c;
+}
+
+.brk-base-border-color {
+  border-color: #2775FF;
+}
+
+.brk-bg-primary {
+  background-color: #2775FF;
+}
+
+.brk-bg-primary-50 {
+  background-color: rgba(39, 117, 255, 0.5);
+}
+
+.brk-bg-secondary {
+  background-color: #7202bb !important;
+}
+
+.brk-bg-light-blue {
+  background-color: #69adff;
+}
+
+.brk-fill-primary {
+  fill: #2775FF;
+}
+
+.brk-fill-primary path {
+  fill: #2775FF;
+}
+
+.brk-fill-secondary {
+  fill: #7202bb;
+}
+
+.brk-fill-secondary path {
+  fill: #7202bb;
+}
+
+.brk-fill-white {
+  fill: #fff;
+}
+
+.brk-fill-white path {
+  fill: #fff;
+}
+
+.brk-hr-gradient {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, #f9f9f9 0%, #f4f4f4 100%);
+}
+
+.brk-bg-primary-opacity {
+  background-color: rgba(39, 117, 255, 0.84);
+}
+
+.brk-bg-light-gray {
+  background-color: #f6f6f6;
+}
+
+.brk-bg-hard-orange {
+  background-color: #4f34c9;
+}
+
+.brk-bg-dark-pink {
+  background-color: #4F00BA;
+}
+
+.brk-base-box-shadow {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.12);
+}
+
+.box-shadow-base {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.12);
+}
+
+.brk-base-box-shadow-inset {
+  box-shadow: inset 0 -5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.brk-base-box-shadow-inset-2 {
+  box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.brk-base-box-shadow-primary {
+  box-shadow: 0 5px 16px rgba(39, 117, 255, 0.5);
+}
+
+.brk-base-bg-light {
+  background-color: #fbfbfb;
+}
+
+.brk-bg-light-dark {
+  background-color: #d8d8d8;
+}
+
+.brk-bg-light-dark-2 {
+  background-color: #f7f7f7;
+}
+
+.brk-bg-light-white {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.brk-bg-light-white-2 {
+  background-color: rgba(255, 255, 255, 0.96);
+}
+
+.brk-bg-light-white-3 {
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+.brk-base-bg-1 {
+  background-color: rgba(39, 117, 255, 0.84) !important;
+}
+
+.brk-base-bg-2 {
+  background-color: rgba(114, 2, 187, 0.84) !important;
+}
+
+.brk-base-bg-3 {
+  background-color: #4f34c9 !important;
+}
+
+.brk-bg-gradient-bottom-92 {
+  background-image: linear-gradient(to bottom, rgba(114, 2, 187, 0.92), rgba(39, 117, 255, 0.92));
+}
+
+.brk-bg-gradient-40deg-60 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.6) 0%, rgba(114, 2, 187, 0.6) 100%);
+}
+
+.brk-bg-gradient-50deg-60 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.6) 0%, rgba(114, 2, 187, 0.6) 100%);
+}
+
+.brk-bg-gradient-40deg-72 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.72) 0%, rgba(114, 2, 187, 0.72) 100%);
+}
+
+.brk-bg-gradient-40deg-92 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.92) 0%, rgba(114, 2, 187, 0.92) 100%);
+}
+
+.brk-bg-gradient-40deg-80 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.8) 0%, rgba(114, 2, 187, 0.8) 100%);
+}
+
+.brk-bg-gradient-40deg-85-28 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.85) 0%, rgba(114, 2, 187, 0.28) 100%);
+}
+
+.brk-bg-gradient-40deg-60 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.6) 0%, rgba(114, 2, 187, 0.6) 100%);
+}
+
+.brk-bg-gradient-10deg-92 {
+  background-image: linear-gradient(10deg, rgba(39, 117, 255, 0.92) 0%, rgba(114, 2, 187, 0.92) 100%);
+}
+
+.brk-bg-gradient-80deg-92 {
+  background-image: linear-gradient(80deg, rgba(39, 117, 255, 0.92) 0%, rgba(114, 2, 187, 0.92) 100%);
+}
+
+.brk-bg-gradient-0deg-90 {
+  background-image: linear-gradient(0deg, rgba(39, 117, 255, 0.9) 0%, rgba(114, 2, 187, 0.9) 100%);
+}
+
+.brk-light-gradient-90deg-94 {
+  background-image: linear-gradient(90deg, rgba(39, 117, 255, 0.94), rgba(0, 198, 255, 0.94));
+}
+
+.brk-bg-gradient-180deg-36 {
+  background-image: linear-gradient(to left, rgba(39, 117, 255, 0.36) 0%, rgba(105, 173, 255, 0.36) 60%, rgba(114, 2, 187, 0.63) 100%);
+}
+
+.brk-light-gradient-0deg-100 {
+  background-image: linear-gradient(0deg, rgba(39, 117, 255, 1), rgba(0, 198, 255, 1));
+}
+
+.brk-bg-alt-gradient-90deg-92 {
+  background-image: linear-gradient(90deg, rgba(15, 90, 224, 0.92) 0%, rgba(114, 2, 187, 0.92) 100%);
+}
+
+.brk-bg-alt-gradient-0deg-94 {
+  background-image: linear-gradient(0deg, rgba(79, 52, 201, 0.94) 0%, rgba(79, 0, 186, 0.94) 100%);
+}
+
+.brk-alt-gradient-0deg-100 {
+  background-image: linear-gradient(0deg, rgba(105, 173, 255, 1), rgba(105, 173, 255, 1));
+}
+
+.brk-alt-gradient-10deg-92 {
+  background-image: linear-gradient(0deg, rgba(105, 173, 255, 0.92), rgba(105, 173, 255, 0.92));
+}
+
+.brk-base-bg-gradient-brighter {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.85) 0%, rgba(114, 2, 187, 0.28) 100%);
+}
+
+.brk-base-bg-gradient-10deg {
+  background-image: linear-gradient(10deg, rgba(39, 117, 255, 0.92), rgba(114, 2, 187, 0.92));
+}
+
+.brk-base-bg-gradient-90deg {
+  background-image: linear-gradient(90deg, rgba(39, 117, 255, 0.92), rgba(114, 2, 187, 0.92));
+}
+
+.brk-base-bg-gradient-0deg {
+  background-image: linear-gradient(0deg, rgba(39, 117, 255, 0.92), rgba(114, 2, 187, 0.92));
+}
+
+.brk-base-bg-gradient-360deg {
+  background-image: linear-gradient(90deg, rgba(39, 117, 255, 0.92), rgba(114, 2, 187, 0.92));
+}
+
+.brk-base-bg-gradient-to-right-92 {
+  background-image: linear-gradient(90deg, rgba(39, 117, 255, 0.92), rgba(114, 2, 187, 0.92));
+}
+
+.brk-base-bg-gradient-90deg-96 {
+  background-image: linear-gradient(90deg, rgba(39, 117, 255, 0.96), rgba(114, 2, 187, 0.96));
+}
+
+.brk-base-bg-gradient--30deg {
+  background-image: linear-gradient(-30deg, #2775FF 0%, #7202bb 100%);
+}
+
+.brk-base-bg-gradient--30deg-96 {
+  background-image: linear-gradient(-30deg, rgba(39, 117, 255, 0.92), rgba(114, 2, 187, 0.92));
+}
+
+.brk-half-transparent-right-gradient {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #2775FF 100%);
+}
+
+.brk-half-transparent-left-gradient {
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, #2775FF 100%);
+}
+
+.brk-base-bg-gradient-right {
+  background-image: linear-gradient(to bottom, #2775FF, #7202bb);
+}
+
+.brk-base-bg-gradient-bottom {
+  background-image: linear-gradient(to bottom, #0F5AE0, #7202bb);
+}
+
+.brk-base-bg-gradient-top {
+  background-image: linear-gradient(to bottom, #0F5AE0, #7202bb);
+}
+
+.brk-base-bg-gradient-right-no-opacity {
+  background-image: linear-gradient(to right, #0F5AE0, #7202bb);
+}
+
+.brk-base-bg-gradient-left-no-opacity {
+  background-image: linear-gradient(to left, #0F5AE0, #7202bb);
+}
+
+.brk-base-bg-gradient-40-no-opacity {
+  background-image: linear-gradient(40deg, #2775FF, #7202bb);
+}
+
+.brk-base-bg-gradient-50deg {
+  background-image: linear-gradient(50deg, rgba(39, 117, 255, 0.94), rgba(0, 198, 255, 0.94));
+}
+
+.brk-base-bg-gradient-50deg-92 {
+  background-image: linear-gradient(50deg, rgba(39, 117, 255, 0.92), rgba(114, 2, 187, 0.92));
+}
+
+.brk-base-bg-gradient-50deg-a {
+  background-image: linear-gradient(50deg, rgba(15, 90, 224, 0.92) 30%, rgba(114, 2, 187, 0.92) 70%);
+}
+
+.brk-base-bg-gradient-50deg-opacity-28 {
+  background-image: linear-gradient(40deg, rgba(15, 90, 224, 0.9) 0%, rgba(114, 2, 187, 0.3) 75%, rgba(114, 2, 187, 0.3) 100%);
+}
+
+.brk-base-bg-gradient-0deg-a {
+  background-image: linear-gradient(0, rgba(15, 90, 224, 0.92) 30%, rgba(114, 2, 187, 0.92) 70%);
+}
+
+.brk-base-bg-gradient-50deg-b {
+  background-image: linear-gradient(50deg, rgba(39, 117, 255, 0.82), rgba(0, 198, 255, 0.82));
+}
+
+.brk-base-bg-gradient-1 {
+  background: linear-gradient(to right, rgba(79, 0, 186, 1) 30%, rgba(114, 2, 187, 0.92) 70%);
+}
+
+.brk-base-bg-gradient-2 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.92) 30%, rgba(36, 36, 36, 0.92) 70%);
+}
+
+.brk-base-bg-gradient-3 {
+  background: linear-gradient(to right, rgba(110, 80, 194, 0.92) 30%, rgba(79, 52, 201, 0.92) 70%);
+}
+
+.brk-base-bg-gradient-4 {
+  background: linear-gradient(to right, rgba(39, 117, 255, 0.92) 30%, rgba(0, 198, 255, 0.92) 70%);
+}
+
+.brk-base-bg-gradient-5 {
+  position: relative;
+}
+
+.brk-base-bg-gradient-5:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(15, 90, 224, 0.95), rgba(114, 2, 187, 0.95));
+  z-index: 1;
+}
+
+.brk-base-bg-gradient-6-black {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 60%, transparent 100%);
+}
+
+.brk-base-bg-gradient-7-transperent {
+  background-image: linear-gradient(to top, rgba(15, 90, 224, 0.92) 0%, rgba(79, 0, 186, 0.09) 70%, rgba(114, 2, 187, 0.09) 100%);
+}
+
+.brk-base-bg-gradient-8 {
+  background-image: linear-gradient(to top, rgba(15, 90, 224, 0.92) 0%, rgba(79, 0, 186, 0.09) 70%, rgba(114, 2, 187, 0.09) 100%);
+}
+
+.brk-base-bg-gradient-9 {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.85) 0%, rgba(0, 198, 255, 0.28) 100%);
+}
+
+.brk-base-bg-gradient-10 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, rgba(48, 48, 48, 0.78) 100%);
+}
+
+.brk-base-bg-gradient-11 {
+  background-image: linear-gradient(to right, #2775FF 0%, #e8ecff 68%, #e8ecff 100%);
+}
+
+.brk-base-bg-gradient-12 {
+  background-image: linear-gradient(to left, #2775FF 0%, #e8ecff 68%, #e8ecff 100%);
+}
+
+.brk-base-bg-gradient-13 {
+  background-image: linear-gradient(to right, #00c6ff, #0F5AE0);
+}
+
+.brk-base-bg-gradient-14 {
+  background-image: linear-gradient(to right, #0F5AE0, #7202bb);
+}
+
+.brk-base-bg-gradient-15 {
+  background-image: linear-gradient(to right, #00c6ff, #0F5AE0 50%, #7202bb);
+}
+
+.brk-base-bg-gradient-16 {
+  background-image: linear-gradient(-10deg, rgba(110, 80, 194, 0.96), rgba(99, 119, 223, 1));
+}
+
+.brk-base-bg-gradient-17 {
+  background-image: linear-gradient(to top, #242935, #2a3248);
+}
+
+.brk-base-bg-gradient-18 {
+  background: linear-gradient(115deg, rgba(255, 255, 255, 0) 43%, #00f1a2 50%, rgba(255, 255, 255, 0) 57%);
+}
+
+.brk-base-bg-gradient-19 {
+  background-image: linear-gradient(to right, rgba(79, 52, 201, 0.9), rgba(79, 0, 186, 0.9));
+}
+
+.brk-base-bg-gradient-20 {
+  background-image: linear-gradient(to right, #00c6ff 0%, #00f6ff 100%);
+}
+
+.brk-base-bg-gradient-21 {
+  background-image: linear-gradient(to right, #81bb35 0%, #81bb35 100%);
+}
+
+.brk-base-bg-gradient-22 {
+  background-image: linear-gradient(to right, #2775FF, #b50aff);
+}
+
+.brk-base-bg-gradient-23 {
+  background-image: linear-gradient(to right, rgba(0, 2, 67, 0.86) 0%, rgba(0, 2, 67, 0.86) 100%);
+}
+
+.brk-base-bg-gradient-24 {
+  background-image: linear-gradient(to top, #69adff 0%, #00c6ff 100%);
+}
+
+.brk-base-bg-gradient-25 {
+  background-image: linear-gradient(to top, #6e50c2 0%, #6377DF 100%);
+}
+
+.brk-base-bg-gradient-26 {
+  background-image: linear-gradient(to top, rgba(23, 27, 38, 0.92) 0%, rgba(39, 45, 62, 0.92) 100%);
+}
+
+.brk-base-gradient-27 {
+  background-image: linear-gradient(to top, #262626 0%, #242424 100%);
+}
+
+.brk-base-gradient-28 {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+
+.brk-base-gradient-29 {
+  background-image: linear-gradient(to top, rgba(38, 38, 38, 0.94) 0%, rgba(36, 36, 36, 0.94) 100%);
+}
+
+.brk-base-gradient-30 {
+  background-image: linear-gradient(to top, #232425 0%, #303031 100%);
+}
+
+.brk-base-gradient-31 {
+  background-image: linear-gradient(to top, #2775FF, #00f6ff) !important;
+}
+
+.brk-base-gradient-32 {
+  background-image: linear-gradient(to right, rgba(105, 173, 255, 0.86) 0%, rgba(79, 52, 201, 0.86) 100%);
+}
+
+.brk-base-gradient-33 {
+  background-image: linear-gradient(to right, #69adff 0%, #4f34c9 100%);
+}
+
+.brk-base-bg-white-transparent {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04));
+}
+
+.brk-base-bg-gradient-brown {
+  background-image: linear-gradient(to top, rgba(40, 37, 57, 0.94) 0%, rgba(59, 54, 87, 0.94) 100%);
+}
+
+.brk-post-brick-gradient-1 {
+  position: relative;
+}
+
+.brk-post-brick-gradient-1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: linear-gradient(to top, rgba(105, 173, 255, 0.92), rgba(0, 198, 255, 0.92));
+}
+
+.brk-post-brick-gradient-2 {
+  position: relative;
+}
+
+.brk-post-brick-gradient-2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: linear-gradient(to top, rgba(79, 52, 201, 0.92), rgba(110, 80, 194, 0.92));
+}
+
+.brk-post-brick-gradient-3 {
+  position: relative;
+}
+
+.brk-post-brick-gradient-3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: linear-gradient(to top, rgba(181, 10, 255, 0.92), rgba(157, 37, 219, 0.92));
+}
+
+.brk-base-bg-gradient-pink-purple {
+  background-image: linear-gradient(to right, rgba(110, 80, 194, 0.96), rgba(79, 0, 186, 0.96));
+}
+
+.brk-sc-tiles-split-gradient {
+  position: relative;
+}
+
+.brk-sc-tiles-split-gradient:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: linear-gradient(to top, rgba(15, 90, 224, 0.96), rgba(114, 2, 187, 0.96));
+}
+
+.brk-sc-tiles-banner__overlay {
+  background-image: linear-gradient(40deg, rgba(15, 90, 224, 0.94) 0%, rgba(0, 198, 255, 0.94) 100%);
+}
+
+.brk-sc-tiles-banner__link {
+  box-shadow: inset 1px 1px 0 0 rgba(11, 152, 246, 1);
+}
+
+.brk-sc-tiles-banner__link:nth-child(1) {
+  box-shadow: inset 1px 0 0 0 rgba(11, 152, 246, 1);
+}
+
+.brk-sc-tags__item {
+  color: #a7ebff;
+}
+
+.brk-sc-tags__item::after {
+  background-color: #a7ebff;
+}
+
+.brk-sc-tiles-row-gradient-right-1 {
+  position: relative;
+}
+
+.brk-sc-tiles-row-gradient-right-1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: linear-gradient(to top, rgba(11, 152, 246, 0.94), rgba(0, 198, 255, 0.94));
+}
+
+.brk-base-bg-green {
+  background-color: rgba(23, 39, 35, 0.8);
+}
+
+.brk-base-bg-yellow {
+  background-image: linear-gradient(to right, rgba(255, 156, 0, 0.96), rgba(255, 210, 0, 0.96));
+}
+
+.brk-base-bg-light-dark {
+  background-image: linear-gradient(-10deg, rgba(250, 250, 250, 0.96), rgba(219, 219, 219, 0.96));
+}
+
+.brk-base-bg-light-blue {
+  background-image: linear-gradient(40deg, rgba(39, 117, 255, 0.6) 0%, rgba(0, 198, 255, 0.6) 100%);
+}
+
+.brk-base-bg-gradient-right-bottom {
+  background-image: linear-gradient(to right, rgba(39, 117, 255, 0.84), rgba(114, 2, 187, 0.84));
+}
+
+@media (max-width: 991px) {
+  .brk-base-bg-gradient-right-bottom {
+    background-image: linear-gradient(to bottom, rgba(39, 117, 255, 0.84), rgba(114, 2, 187, 0.84));
+  }
+}
+
+.brk-base-bg-gradient-right {
+  background-image: linear-gradient(to right, rgba(39, 117, 255, 0.84), rgba(114, 2, 187, 0.84));
+}
+
+.brk-base-bg-gradient-left-blue {
+  background-image: linear-gradient(to right, #2775FF, #00c6ff);
+}
+
+.brk-base-bg-gradient-bottom-blue {
+  background-image: linear-gradient(to top, rgba(0, 198, 255, 0.86) 0%, rgba(0, 246, 255, 0.86) 100%);
+}
+
+.brk-base-gradient-persone-table {
+  background-image: linear-gradient(to right, rgba(11, 152, 246, 0.9), rgba(110, 80, 194, 0.9) 41%, rgba(79, 0, 186, 0.25) 65%, rgba(79, 0, 186, 0) 74%);
+}
+
+.brk-base-bg-gradient-chevron {
+  background: repeating-linear-gradient(135deg, #e8ecff 0, #e8ecff 5px, #fff 5px, #fff 15px);
+}
+
+.brk-base-bg-gradient-chevron-pseudo:before {
+  background: repeating-linear-gradient(135deg, #e8ecff 0, #e8ecff 5px, #fff 5px, #fff 10px);
+}
+
+.brk-base-bg-gradient-chevron-pseudo:after {
+  background: repeating-linear-gradient(135deg, #e8ecff 0, #e8ecff 5px, #fff 5px, #fff 10px);
+}
+
+.brk-base-bg-gradient-bottom {
+  background-image: linear-gradient(to bottom, rgba(39, 117, 255, 0.84), rgba(114, 2, 187, 0.84));
+}
+
+.brk-bg-grad {
+  background: linear-gradient(to right, #0F5AE0, #7202bb);
+}
+
+.brk-base-gradient-btn-backgrounds {
+  background-image: linear-gradient(to left, rgba(0, 241, 162, 0.92), rgba(0, 189, 240, 0.92));
+}
+
+.brk-bg-color {
+  background: #0F5AE0;
+}
+
+.brk-bg-color-dark {
+  background-color: rgba(22, 26, 29, 0.9);
+}
+
+.brk-bg-color-dark-2 {
+  background-color: #161a1d;
+}
+
+.brk-bg-color-dark-3 {
+  background-color: #1c2124;
+}
+
+.brk-bg-color-dark-4 {
+  background-color: #242526;
+}
+
+.brk-bg-color-dark-5 {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.brk-bg-color-dark-6 {
+  background-image: linear-gradient(to top, rgba(23, 27, 38, 0.92) 0%, rgba(39, 45, 62, 0.92) 100%);
+}
+
+.brk-bt-color {
+  border-top-color: #2775FF;
+}
+
+.brk-br-color {
+  border-right-color: #2775FF;
+}
+
+.brk-bb-color {
+  border-bottom-color: #2775FF;
+}
+
+.brk-bl-color {
+  border-left-color: #0F5AE0;
+}
+
+.brk-bl-color-2 {
+  border-left-color: #00c6ff;
+}
+
+.brk-bl-color-4 {
+  border-left-color: #e8ecff;
+}
+
+.brk-border-color-light {
+  border-color: #0B98F6;
+}
+
+.brk-border-color-primary {
+  border-color: #2775FF;
+}
+
+.brk-pseudo-gradient-1:after {
+  background-image: linear-gradient(to right, rgba(11, 152, 246, 0.94) 0%, rgba(0, 246, 255, 0.94) 100%);
+}
+
+.brk-shadow-light {
+  box-shadow: 0 6px 30px rgba(105, 173, 255, 0.6);
+}
+
+.brk-black-92-overlay {
+  background-color: rgba(0, 0, 0, 0.92);
+}
+
+.brk-black-82-overlay {
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+.brk-blue-86-overlay {
+  background-color: rgba(22, 0, 186, 0.86);
+}
+
+.brk-primary-92-overlay {
+  background-color: rgba(20, 23, 28, 0.92);
+}
+
+.brk-black-76-overlay {
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+.brk-black-60-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.svg-blue path {
+  stroke: #2775FF;
+}
+
+.svg-blue circle {
+  stroke: #2775FF;
+}
+
+.svg-blue line {
+  stroke: #2775FF;
+}
+
+.svg-blue polyline {
+  stroke: #2775FF;
+}
+
+.svg-blue rect {
+  stroke: #2775FF;
+}
+
+.svg-base path {
+  stroke: #2775FF;
+}
+
+.svg-base circle {
+  stroke: #2775FF;
+}
+
+.svg-base line {
+  stroke: #2775FF;
+}
+
+.svg-base polyline {
+  stroke: #2775FF;
+}
+
+.svg-base rect {
+  stroke: #2775FF;
+}
+
+.svg-white path {
+  stroke: #fff;
+}
+
+.svg-white circle {
+  stroke: #fff;
+}
+
+.svg-white line {
+  stroke: #fff;
+}
+
+.svg-white polyline {
+  stroke: #fff;
+}
+
+.svg-white rect {
+  stroke: #fff;
+}
+
+/*breadcrumbs*/
+.brk-base-bg-3 {
+  background: #fff;
+}
+
+.brk-base-bg-4 {
+  background: linear-gradient(90deg, #0f1f3a 3px, transparent 1%) center, linear-gradient(#0f1f3a 3px, transparent 1%) center, #000;
+  background-size: 5px 5px;
+}
+
+.brk-base-bg-5 {
+  background: #f8f8f8;
+}
+
+.brk-base-bg-6 {
+  background: #272727;
+}
+
+.brk-base-bg-7 {
+  background: rgba(39, 39, 39, 0.7);
+}
+
+.brk-base-bg-8 {
+  background: #00f6ff;
+}
+
+.highlight-underline > .before.brk-base-bg-8 {
+  background: #00f6ff;
+}
+
+.brk-base-bg-gradient-7 {
+  background: linear-gradient(to right, #00c6ff 0%, #0F5AE0 50%, #7202bb 100%);
+}
+
+/*colors for accordions*/
+.brk-color-1 {
+  background: #00c6ff !important;
+}
+
+.brk-color-2 {
+  background: #0B98F6 !important;
+}
+
+.brk-color-3 {
+  background: #0F5AE0 !important;
+}
+
+.brk-color-4 {
+  background: #7400ba !important;
+}
+
+/*backgrounds*/
+.default-bg-1 {
+  background: url("../../img/default-bg-image-01.jpg");
+}
+
+/*backgrounds*/
+/*Forum*/
+.brk-bg-blue {
+  background-color: #69adff;
+  background-image: linear-gradient(30deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+
+.brk-bg-green {
+  background-color: #65cd54;
+  background-image: linear-gradient(30deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+
+.brk-bg-cyan {
+  background-color: #33d8bf;
+  background-image: linear-gradient(30deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+
+.brk-bg-orange {
+  background-color: #f76f3e;
+  background-image: linear-gradient(30deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+
+.brk-bg-yellow {
+  background-color: #f5d546;
+  background-image: linear-gradient(30deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+
+.brk-bg-brown {
+  background-color: #88695d;
+  background-image: linear-gradient(30deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+
+.brk-bg-black {
+  background-color: #000;
+}
+
+.brk-bg-orange-1 {
+  background-color: #ff9a1d;
+}
+
+.brs-carousel__link {
+  box-shadow: 3px 4px 15px rgba(79, 0, 186, 0.4);
+}
+
+.slider-thumbnailed-nav .brk-slid__overlay {
+  background-image: linear-gradient(to right, rgba(39, 117, 255, 0.84), rgba(114, 2, 187, 0.84));
+}
+
+.slider-thumbnailed-nav .brk-slid__icon {
+  color: #fff;
+}
+
+/*.colored-slider {
+  .swiper-slide {
+    &:before {
+      background-color: rgba(var(--white-rgb), 0.8);
+    }
+    &.swiper-slide-active {
+      &:before {
+        background-color: rgba(var(--white-rgb), 0);
+      }
+    }
+  }
+}*/
+/*Standart button reverse*/
+.icon__btn_reverse {
+  color: #2775FF !important;
+  background: #fff !important;
+}
+
+.icon__btn_reverse .before {
+  background-color: #fff !important;
+}
+
+.icon__btn_reverse .after {
+  background-color: #fff !important;
+}
+
+/*Standart button reverse*/
+
+/*# sourceMappingURL=maps/brk-base-color.css.map */
